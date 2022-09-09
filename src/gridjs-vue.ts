@@ -6,6 +6,7 @@ import props from './lib/setup/props'
 import { setTheme } from './lib/setup/theme'
 import watcher from './lib/setup/watch'
 import { Grid, GridOptions, GridVue } from './main.d'
+import Vue from 'vue';
 
 export default Vue.extend({
   name: 'Grid',
